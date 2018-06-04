@@ -1,0 +1,2 @@
+导出数据：mongodump -h localhost -d dumall -o d:/data/dumall
+导入数据：mongorestore -h localhost -d dumall --drop D:\data\dumall\dumall
